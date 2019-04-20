@@ -1,6 +1,6 @@
 FROM java:alpine
 
-ENV SONAR_SCANNER_VERSION 3.2.0.1227
+ENV SONAR_SCANNER_VERSION 3.3.0.1492
 
 RUN apk add --update --no-cache \
         bash \
