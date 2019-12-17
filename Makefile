@@ -17,4 +17,4 @@ push:
 	docker push $(IMAGE_BASE)/$(IMAGE)
 
 run:
-	docker run --rm --name $(IMAGE_BASE)-$(IMAGE) $(IMAGE_BASE)/$(IMAGE) bash
+	docker run --rm -it --name $(IMAGE_BASE)-$(IMAGE) $(IMAGE_BASE)/$(IMAGE) bash
